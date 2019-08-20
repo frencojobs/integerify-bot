@@ -1,0 +1,35 @@
+{
+  "name": "integerify-bot",
+  "version": "1.0.0",
+  "description": "Twitter Automation Account that will tweet about numbers.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "format": "prettier --write index.js  config.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrencoJobs/integerify.git"
+  },
+  "author": "Frenco Jobs <frenco.willian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrencoJobs/integerify/issues"
+  },
+  "homepage": "https://github.com/FrencoJobs/integerify#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "twit": "2.2.11"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "prettier": "^1.18.2",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3"
+  }
+}
